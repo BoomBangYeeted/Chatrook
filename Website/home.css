@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'IBM Plex'; 
+    src: url('Prompt-Regular.ttf');
+    font-style: upright;
+    font-weight: 60;
+}
+:root {
+    --pbg: navy;
+    --sbg: rgb(0, 0, 108);
+    --bbg: rgb(0, 0, 88);
+    --text: aliceblue;
+}
+
+body {
+    font-family:'IBM Plex';
+    background-color: var(--pbg);
+    margin: 0;
+    color: var(--text);
+}
+
+
+#home {
+    font-weight: bold;
+    color: var(--text);
+}
+
+.navbar {
+    display: flex;
+    height: 64px;
+    background-color: var(--sbg);
+}
+
+.long {
+    flex: 2;
+}
+
+h1 {
+    color: var(--text);
+    background-color: var(--pbg);
+    margin-left: 50px;
+}
+
+h2 {
+    margin-left: 75px;
+}
+
+a {
+    flex: .1;
+    text-align: center;
+    background-color: var(--sbg);
+    border: 0px;
+    font-family: 'IBM Plex';
+    color: var(--text);
+    font-style: normal;
+    text-decoration: none;
+}
+
+a:hover {
+    flex: .1;
+    background-color: var(--bbg);
+}
