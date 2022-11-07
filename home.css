@@ -57,5 +57,11 @@ a {
 
 a:hover {
     flex: .2 ;
+    text-align: center;
     background-color: var(--bbg);
+    border: 0px;
+    font-family: 'IBM Plex';
+    color: var(--text);
+    font-style: normal;
+    text-decoration: none;
 }
