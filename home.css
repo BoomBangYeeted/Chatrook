@@ -46,7 +46,7 @@ h2 {
 }
 
 .button {
-    flex: calc(var(--buttons) / 2);
+    flex: calc(var(--buttons)/2);
     text-align: center;
     background-color: var(--sbg);
     border: 0px;
