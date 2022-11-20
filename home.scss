@@ -44,7 +44,7 @@ h2 {
     margin-left: 75px;
 }
 
-a {
+.button {
     flex: .2;
     text-align: center;
     background-color: var(--sbg);
@@ -53,7 +53,7 @@ a {
     color: var(--text);
     font-style: normal;
     text-decoration: none;
-    a:hover {
+    :hover {
         background-color: var(--bbg);
     }
 }
