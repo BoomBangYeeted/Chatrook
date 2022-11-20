@@ -9,6 +9,7 @@
     --sbg: rgb(0, 0, 108);
     --bbg: rgb(76, 88, 88);
     --text: aliceblue;
+    --buttons: 2;
 }
 
 body {
@@ -53,7 +54,8 @@ h2 {
     color: var(--text);
     font-style: normal;
     text-decoration: none;
-    :hover {
-        background-color: var(--bbg);
-    }
+}
+
+.button:hover {
+    background-color: var(--bbg);
 }
