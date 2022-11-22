@@ -20,4 +20,5 @@ body {
 .msg {
     flex: 10px;
     background-color:rgb(74, 50, 99);
+    color:rgb(233, 233, 233);
 }
