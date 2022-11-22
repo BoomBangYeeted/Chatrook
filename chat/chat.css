@@ -18,6 +18,6 @@ body {
 }
 
 .msg {
-    flex: 50px;
+    flex: 50rem;
     background-color:rgb(74, 50, 99);
 }
