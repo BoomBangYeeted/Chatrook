@@ -22,6 +22,8 @@ body {
 
 #home {
     font-weight: bold;
+    border-bottom: 10px;
+    border-radius: 10px;
     color: var(--text);
 }
 
@@ -49,7 +51,7 @@ h2 {
     flex: calc(var(--buttons) * .18);
     text-align: center;
     background: var(--sbg);
-    border: 0px;
+    border: 0;
     font-family: 'IBM Plex';
     color: var(--text);
     font-style: normal;
