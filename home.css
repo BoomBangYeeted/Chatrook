@@ -29,10 +29,11 @@ body {
 
 .navbar {
     display: flex;
+    flex-shrink: 64px;
     height: 64px;
     background-color: var(--sbg);
-    border: 10em;
-    border-radius: 1em;
+    border: 16px;
+    border-radius: 1em, 1em;
 }
 
 .long {
