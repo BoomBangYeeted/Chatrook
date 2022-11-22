@@ -27,7 +27,6 @@ body {
 
 .navbar {
     display: flex;
-    flex-shrink: 64px;
     height: 64px;
     background-color: var(--sbg);
     border: 16px;
