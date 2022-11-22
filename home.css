@@ -32,6 +32,7 @@ body {
     height: 64px;
     background-color: var(--sbg);
     border: 10em;
+    border-radius: 1em;
 }
 
 .long {
@@ -52,8 +53,6 @@ h2 {
     flex: calc(var(--buttons) * .18 *.8);
     text-align: center;
     background: var(--sbg);
-    border: 1em;
-    border-radius: 1em;
     font-family: 'IBM Plex';
     color: var(--text);
     font-style: normal;
