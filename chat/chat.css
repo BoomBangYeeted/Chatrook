@@ -15,9 +15,3 @@ body {
     display: flexbox;
     background-color: aqua;
 }
-
-.msg {
-    border: 1em;
-    border-radius: .2em;
-    flex: 1em;
-}
