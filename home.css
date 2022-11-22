@@ -46,8 +46,9 @@ h2 {
 }
 
 .button {
-    flex: calc(var(--buttons) * .1);
+    flex: calc(var(--buttons) * .18);
     text-align: center;
+    background: linear-gradient(135deg, var(--sbg) 0%, rgb(0,0, 98) 50%), var(--bbg);
     background-color: var(--sbg);
     border: 0px;
     font-family: 'IBM Plex';
