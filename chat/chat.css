@@ -13,10 +13,12 @@ body {
 
 ul.chat {
     flex-direction: column;
-    position: flex;
+    display: flex;
+    width: 10em;
     background-color: rgb(113, 91, 124);
 }
 
 ul.chat.msg {
     border-radius: .2em;
+    flex: 1em;
 }
