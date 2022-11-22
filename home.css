@@ -37,7 +37,7 @@ body {
 }
 
 .long {
-    flex: calc(var(--buttons) * .8);
+    flex: calc(.8);
 }
 
 h1 {
