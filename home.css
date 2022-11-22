@@ -34,7 +34,7 @@ body {
 }
 
 .long {
-    flex: var(--buttons);
+    flex: calc(var(--buttons) * .8);
 }
 
 h1 {
@@ -48,7 +48,7 @@ h2 {
 }
 
 .button {
-    flex: calc(var(--buttons) * .18);
+    flex: calc(var(--buttons) * .18 *.8);
     text-align: center;
     background: var(--sbg);
     border: 0;
