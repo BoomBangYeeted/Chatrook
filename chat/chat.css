@@ -13,6 +13,7 @@ body {
 
 .chat {
     display: flexbox;
+    background-color: aqua;
 }
 
 .msg {
