@@ -12,6 +12,8 @@ body {
 }
 
 ul.chat {
+    flex-direction: column;
+    position: flex;
     background-color: rgb(113, 91, 124);
 }
 
