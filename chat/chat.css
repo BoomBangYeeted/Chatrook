@@ -12,12 +12,7 @@ body {
 }
 
 .chat {
-    flex-direction: column;
-    text-align: center;
-    border: 0px;
-    font-family: 'IBM Plex';
-    font-style: normal;
-    text-decoration: none;
+    display: flexbox;
 }
 
 .msg {
