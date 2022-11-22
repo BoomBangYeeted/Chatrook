@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'IBM Plex'; 
+    src: url('Prompt-Regular.ttf');
+    font-style: upright;
+    font-weight: 60;
+}
+
+body {
+    background-color: rgb(90, 28, 121);
+    color:rgb(233, 233, 233);
+    font-family: "IBM Plex";
+}
+
+ul.chat {
+    background-color: rgb(113, 91, 124);
+}
+
+ul.chat.msg {
+    border-radius: .2em;
+}
