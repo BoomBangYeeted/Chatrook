@@ -31,7 +31,8 @@ body {
     height: 64px;
     background-color: var(--sbg);
     border: 16px;
-    border-radius: 16px, 0px, 16px, 0px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
 }
 
 .long {
