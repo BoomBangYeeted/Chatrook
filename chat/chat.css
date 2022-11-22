@@ -11,14 +11,14 @@ body {
     font-family: "IBM Plex";
 }
 
-ul.chat {
+.chat {
     flex-direction: column;
     display: flex;
     width: 10em;
     background-color: rgb(113, 91, 124);
 }
 
-ul.chat.msg {
+.msg {
     border-radius: .2em;
     flex: 1em;
 }
