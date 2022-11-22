@@ -37,7 +37,7 @@ body {
 }
 
 .long {
-    flex: calc(var(--buttons) * .4);
+    flex: calc(var(--buttons) * .8);
 }
 
 h1 {
@@ -51,7 +51,7 @@ h2 {
 }
 
 .button {
-    flex: calc(var(--buttons) * .18 *.8);
+    flex: calc(.2/var(--buttons));
     text-align: center;
     background: var(--sbg);
     font-family: 'IBM Plex';
