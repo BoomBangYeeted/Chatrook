@@ -30,7 +30,7 @@ body {
     display: flex;
     height: 64px;
     background-color: var(--sbg);
-    border-bottom-width: .02fr;
+    border: .02fr;
     border-bottom-left-radius: .02fr;
     border-bottom-right-radius: .02fr;
 }
