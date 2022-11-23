@@ -29,9 +29,9 @@ body {
     display: flex;
     height: 64px;
     background-color: var(--sbg);
-    border-bottom: 16px;
-    border-bottom-left-radius: 16px;
-    border-bottom-right-radius: 16px;
+    border-bottom: .02fr;
+    border-bottom-left-radius: .02fr;
+    border-bottom-right-radius: .02fr;
 }
 
 .long {
@@ -39,7 +39,7 @@ body {
 }
 
 .small {
-    flex: .02
+    flex: .02;
 }
 h1 {
     color: var(--text);
