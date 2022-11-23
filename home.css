@@ -30,7 +30,7 @@ body {
     height: 64px;
     background-color: var(--sbg);
     border: 32px;
-    border-radius: 16px, 16px, 0px, 0px;
+    border-radius: 16px, 16px, 16px, 16px;
 }
 
 .long {
