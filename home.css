@@ -34,10 +34,13 @@ body {
     border-bottom-right-radius: 16px;
 }
 
-.long {
+.navbar::before {
     flex: .8;
 }
 
+.navbar::after {
+    flex: .02
+}
 h1 {
     color: var(--text);
     background-color: var(--pbg);
@@ -49,7 +52,7 @@ h2 {
 }
 
 .button {
-    flex: calc(.2/var(--buttons));
+    flex: calc(.1.8/var(--buttons));
     text-align: center;
     background: var(--sbg);
     font-family: 'IBM Plex';
