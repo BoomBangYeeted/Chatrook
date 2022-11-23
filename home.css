@@ -47,7 +47,7 @@ h2 {
     margin-left: 75px;
 }
 
-a.button {
+.button {
     flex: calc(.2/var(--buttons));
     text-align: center;
     background: var(--sbg);
