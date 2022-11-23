@@ -29,6 +29,9 @@ body {
     display: flex;
     height: 64px;
     background-color: var(--sbg);
+    border-bottom: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
 }
 
 .long {
