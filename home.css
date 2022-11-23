@@ -8,6 +8,7 @@
     --pbg: navy;
     --sbg: rgb(0, 0, 108);
     --bbg: rgb(0, 0, 88);
+    --dbg: rgb(0, 0, 68);
     --text: aliceblue;
     --buttons: 2;
 }
@@ -32,7 +33,7 @@ body {
     border-bottom: .02fr;
     border-bottom-left-radius: .02fr;
     border-bottom-right-radius: .02fr;
-    box-shadow: .02fr;
+    box-shadow: 0px 0px var(--dbg);
 }
 
 .long {
