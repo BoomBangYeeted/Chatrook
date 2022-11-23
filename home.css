@@ -31,6 +31,7 @@ body {
     background-color: var(--sbg);
     border: 32px;
     border-radius: 16px, 16px, 16px, 16px;
+    margin-left: 16px;
 }
 
 .long {
