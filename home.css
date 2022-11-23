@@ -34,11 +34,11 @@ body {
     border-bottom-right-radius: 16px;
 }
 
-.navbar::before {
+.long {
     flex: .8;
 }
 
-.navbar::after {
+.small {
     flex: .02
 }
 h1 {
