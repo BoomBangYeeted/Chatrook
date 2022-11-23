@@ -37,6 +37,7 @@ body {
 
 .long {
     flex: .8;
+    border-bottom-left-radius: .02fr;
 }
 
 .small {
