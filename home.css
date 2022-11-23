@@ -52,7 +52,7 @@ h2 {
 }
 
 .button {
-    flex: calc(.1.8/var(--buttons));
+    flex: calc(.18/var(--buttons));
     text-align: center;
     background: var(--sbg);
     font-family: 'IBM Plex';
