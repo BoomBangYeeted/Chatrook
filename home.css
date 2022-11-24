@@ -30,8 +30,8 @@ body {
     display: flex;
     height: 64px;
     background-color: var(--sbg);
-    border: 16px;
-    border-radius: 8px;
+    border: 1em;
+    border-radius: 0px, 0px, .5em, .5em;
 }
 
 .long {
