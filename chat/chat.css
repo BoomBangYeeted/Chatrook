@@ -5,20 +5,11 @@
     font-weight: 60;
 }
 
+:root {
+    --pbg: rgb(37, 16, 65);
+}
+
 body {
-    background-color: rgb(40, 12, 54);
-    color:rgb(233, 233, 233);
-    font-family: "IBM Plex";
-}
-
-.log {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(56, 35, 80);
-}
-
-.msg {
-    flex: .5;
-    background-color:rgb(74, 50, 99);
-    color:rgb(233, 233, 233);
+    font-family: 'IBM Plex';
+    background-color: var(--pbg);
 }
