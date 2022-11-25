@@ -7,11 +7,11 @@
 
 :root {
     --pbg: rgb(37, 16, 65);
+    font-family: 'IBM Plex';
 }
 
 body {
     font-family: 'IBM Plex';
-    background-color: var(--pbg);
 }
 
 .log {
@@ -21,15 +21,28 @@ body {
     list-style-type: none;
     flex-direction: column;
     gap: .5rem;
-    width: 50em;
-    border: .1rem;
-    border-radius: .05rem;
+    float: right;
+    border: 5rem;
     background-color: rgb(30, 13, 53);
     color: rgb(189, 181, 201);
+    width: -moz-available;
 }
+
 
 
 .msg {
     flex: 1;
     background-color: rgb(55, 35, 82);
+    border-radius: .5rem;
+    text-indent: 10px;
+    padding-block-start: 2vw;
+    padding-block-end: 2vw;
+    margin-inline: 3em;
+    margin-left: 3em;
+}
+
+.prof {
+    width: 100px;
+	height: 100px;
+	border-radius: 50%;
 }
