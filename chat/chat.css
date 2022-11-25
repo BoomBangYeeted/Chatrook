@@ -31,7 +31,7 @@ body {
 
 
 .msg {
-    flex: 1;
+    flex: 2;
     background-color: rgb(55, 35, 82);
     border-radius: .5rem;
     text-indent: 10px;
