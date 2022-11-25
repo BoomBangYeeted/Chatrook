@@ -11,13 +11,12 @@
 
 body {
     font-family: 'IBM Plex';
-    background-color: var(--pbg);
 }
 
 .log {
     display: flex;
-    flex-direction: column;
     width: auto;
+    background-color: var(--pbg);
     color: rgb(189, 181, 201);
 }
 
