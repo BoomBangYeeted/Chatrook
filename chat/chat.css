@@ -25,6 +25,7 @@ body {
     gap: .02;
     width: 10em;
     text-align: end;
+    background-color: rgb(64, 32, 105);
 }
 
 .prof {
