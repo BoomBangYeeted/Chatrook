@@ -16,33 +16,19 @@ body {
 
 .log {
     display: flex;
-    justify-content:flex-start;
-    margin-left: auto;
-    list-style-type: none;
     flex-direction: column;
-    gap: .5rem;
-    float: right;
-    border: 5rem;
-    background-color: rgb(30, 13, 53);
-    color: rgb(189, 181, 201);
-    width: -moz-available;
+    background-color: rgb(31, 14, 54);
+    border: .1em;
 }
 
-
-
 .msg {
-    flex: 2;
-    background-color: rgb(55, 35, 82);
-    border-radius: .5rem;
-    text-indent: 10px;
-    padding-block-start: 2vw;
-    padding-block-end: 2vw;
-    margin-inline: 3em;
-    margin-left: 3em;
+    gap: .02;
+    width: 10em;
+    text-align: end;
 }
 
 .prof {
-    width: 100px;
-	height: 100px;
+    width: 1em;
+	height: 1em;
 	border-radius: 50%;
 }
